@@ -5,15 +5,15 @@
 
 :root {
   /* @colorThemes/lightTheme/grayNavyBlue */
-  --background: #fffafa;
+  --background: #f5faff;
   --card: #ffffff;
-  --foreground: #1a0000;
-  --primary-cta: #e63946;
-  --primary-cta-text: #fffafa;
+  --foreground: #001122;
+  --primary-cta: #15479c;
+  --primary-cta-text: #f5faff;
   --secondary-cta: #ffffff;
-  --secondary-cta-text: #1a0000;
-  --accent: #f5c4c7;
-  --background-accent: #f09199;
+  --secondary-cta-text: #001122;
+  --accent: #a8cce8;
+  --background-accent: #7ba3cf;
 
   /* @layout/border-radius/rounded */
   --radius: 0.5rem;
