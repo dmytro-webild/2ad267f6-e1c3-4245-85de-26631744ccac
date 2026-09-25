@@ -34,7 +34,7 @@ const ContactInline = () => {
             <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-foreground mb-1.5">
-                  Nom <span className="text-red-500">*</span>
+                  Nom <span className="text-secondary-cta">*</span>
                 </label>
                 <input
                   type="text"
@@ -42,13 +42,13 @@ const ContactInline = () => {
                   name="name"
                   required
                   placeholder="Votre nom"
-                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-red-500 transition-colors"
+                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-secondary-cta transition-colors"
                 />
               </div>
 
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-foreground mb-1.5">
-                  Email <span className="text-red-500">*</span>
+                  Email <span className="text-secondary-cta">*</span>
                 </label>
                 <input
                   type="email"
@@ -56,13 +56,13 @@ const ContactInline = () => {
                   name="email"
                   required
                   placeholder="votre.email@exemple.com"
-                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-red-500 transition-colors"
+                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-secondary-cta transition-colors"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground mb-1.5">
-                  Message <span className="text-red-500">*</span>
+                  Message <span className="text-secondary-cta">*</span>
                 </label>
                 <textarea
                   id="message"
@@ -70,7 +70,7 @@ const ContactInline = () => {
                   required
                   rows={4}
                   placeholder="Décrivez votre besoin..."
-                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-red-500 transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded bg-background border border-white/15 text-foreground placeholder:text-accent/60 focus:outline-none focus:border-secondary-cta transition-colors resize-none"
                 />
               </div>
 
