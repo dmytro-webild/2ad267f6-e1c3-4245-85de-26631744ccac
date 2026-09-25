@@ -15,7 +15,9 @@ import TrustSection from './HomePage/sections/Trust';
 import ContactSection from './HomePage/sections/Contact';
 
 
-{/* webild-stub @2026-09-25T18:00:05.560Z: Add a contact page Z, including the provided social media links: Facebook (https://www.facebook.com/share/1HUfTa4MeK/?mibextid=wwXIfr), Instagram (https://www.instagram.com/rhones.alpe.services?stkn=MTJ3MG1mYnBmdnR4NA%3D%3D&utm_source=qr),  */}
+
+import PlatformsSection from './HomePage/sections/Platforms';
+import ReservationSection from './HomePage/sections/Reservation';{/* webild-stub @2026-09-25T18:00:05.560Z: Add a contact page Z, including the provided social media links: Facebook (https://www.facebook.com/share/1HUfTa4MeK/?mibextid=wwXIfr), Instagram (https://www.instagram.com/rhones.alpe.services?stkn=MTJ3MG1mYnBmdnR4NA%3D%3D&utm_source=qr),  */}
 
 export default function HomePage(): React.JSX.Element {
   return (
@@ -25,6 +27,8 @@ export default function HomePage(): React.JSX.Element {
   <AboutSection />
 
   <ServicesSection />
+      <PlatformsSection />
+      <ReservationSection />
 
   <MetricsSection />
 
