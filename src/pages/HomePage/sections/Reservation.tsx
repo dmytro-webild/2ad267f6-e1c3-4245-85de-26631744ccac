@@ -13,7 +13,7 @@ export default function ReservationSection(): React.JSX.Element {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const CALENDLY_URL = "https://calendly.com";
+  const CALENDLY_URL = "https://calendly.com/elounyameny/30min";
   const NOTIFICATION_EMAIL = "rhones.alpe.services@gmail.com";
 
   const handleSubmit = (e: React.FormEvent) => {
