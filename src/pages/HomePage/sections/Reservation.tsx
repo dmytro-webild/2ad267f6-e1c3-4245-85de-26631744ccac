@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import { Calendar, Video, Mail, CheckCircle2 } from "lucide-react";
+import { Calendar, Mail, CheckCircle2 } from "lucide-react";
 
 export default function ReservationSection(): React.JSX.Element {
   const [formData, setFormData] = useState({
@@ -41,10 +41,10 @@ export default function ReservationSection(): React.JSX.Element {
 
   return (
     <div data-webild-section="reservation" data-section="reservation" id="reservation">
-      <section className="py-20 bg-background text-foreground">
+      <section className="bg-background text-foreground">
         <div className="w-content-width mx-auto">
           <ScrollReveal variant="fade-blur">
-            <div className="max-w-3xl mx-auto card p-8 md:p-12 rounded-lg border border-white/10 shadow-2xl">
+            <div className="max-w-content-width mx-auto card p-8 rounded-lg border border-white/10 shadow-2xl">
               <div className="text-center mb-8">
                 <div className="px-3 py-1 mb-3 text-sm card rounded w-fit mx-auto text-accent flex items-center gap-2">
                   <Calendar className="w-4 h-4 text-primary-cta" />
