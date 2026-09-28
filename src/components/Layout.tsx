@@ -36,6 +36,8 @@ export default function Layout() {
     "href": "#trust"
   },
   { name: "Contact", href: "/contact" },
+  { name: "Services", href: "/services" },
+
 
 ];
 
