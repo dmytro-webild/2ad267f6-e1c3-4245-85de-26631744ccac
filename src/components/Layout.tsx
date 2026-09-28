@@ -63,15 +63,15 @@ export default function Layout() {
           items: [
             {
               label: "Maintenance",
-              href: "#",
+              href: "#services",
             },
             {
-              label: "Rénovation",
-              href: "#",
+              label: "Petits travaux",
+              href: "#services",
             },
             {
-              label: "Nettoyage",
-              href: "#",
+              label: "Lavage de vitres",
+              href: "#services",
             },
           ],
         },

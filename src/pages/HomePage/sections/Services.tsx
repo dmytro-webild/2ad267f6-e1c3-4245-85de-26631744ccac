@@ -8,46 +8,22 @@ import { cls } from "@/lib/utils";
 
 const items = [
   {
-    title: "Maintenance Technique",
-    description: "Diagnostic et entretien préventif complet de vos installations.",
-    href: "#",
+    title: "Petits Travaux",
+    description: "Petites réparations, fixations, montage/démontage, installations et entretien courant de vos locaux.",
+    href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg?_wi=2"
   },
   {
-    title: "Rénovation Intérieure",
-    description: "Craftsmanship de haute qualité pour vos projets de transformation.",
-    href: "#",
+    title: "Lavage de Vitres",
+    description: "Vitrines commerciales, fenêtres, baies vitrées pour bureaux et commerces. Interventions ponctuelles ou régulières.",
+    href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg?_wi=2"
   },
   {
-    title: "Entretien de Locaux",
-    description: "Nettoyage quotidien ou périodique pour entreprises et commerces.",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-beautiful-woman-gesticulating_273609-40342.jpg"
-  },
-  {
-    title: "Services de Proximité",
-    description: "Une équipe réactive pour vos besoins de réparation rapide.",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/empty-space-car-park-interior-night_1127-2306.jpg"
-  },
-  {
-    title: "Rénovation Façades",
-    description: "Valorisez l'extérieur de votre bâtiment avec nos solutions.",
-    href: "#",
+    title: "Maintenance",
+    description: "Maintenance générale, entretien courant, contrôle visuel et préventif pour la pérennité de vos espaces.",
+    href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/monochrome-scene-depicting-life-workers-construction-industry-site_23-2151431465.jpg"
-  },
-  {
-    title: "Interventions d'Urgence",
-    description: "Réponse rapide pour assurer la continuité de vos activités.",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-builder-uniform-holding-black-bank-card-yellow-background_140725-112415.jpg"
-  },
-  {
-    title: "Projets Sur-Mesure",
-    description: "Solutions personnalisées selon vos objectifs de valorisation.",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-auto-repairman-looking-camera-while-his-customers-are-standing-background_637285-7790.jpg"
   }
 ];
 
@@ -70,19 +46,11 @@ interface FeaturesRevealCardsBentoProps {
 const ServicesInline = () => {
   const gridClasses = [
     "md:col-span-2",
-    "md:col-span-4",
-    "md:col-span-3",
-    "md:col-span-3",
-    "md:col-span-2",
     "md:col-span-2",
     "md:col-span-2",
   ];
 
   const staggerDelays = [
-    0,
-    0.1,
-    0,
-    0.1,
     0,
     0.1,
     0.2,
