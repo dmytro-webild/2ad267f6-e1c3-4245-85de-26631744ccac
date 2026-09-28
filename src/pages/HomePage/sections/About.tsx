@@ -12,9 +12,9 @@ export default function AboutSection(): React.JSX.Element {
               <AboutTextSplit
           title="Une expertise de confiance en Rhône-Alpes"
           descriptions={[
-            "Forts de notre ancrage local, nous intervenons avec une rigueur absolue pour garantir la pérennité et la valorisation de vos espaces immobiliers.",
-            "Qu'il s'agisse de maintenance technique, de rénovation complète ou d'entretien ponctuel, nos équipes qualifiées s'adaptent à vos besoins spécifiques avec discrétion et efficacité.",
-            "Notre engagement repose sur une communication transparente, des délais respectés et un savoir-faire reconnu par nos partenaires locaux.",
+            "Votre intervenant multiservices dédié à l'entretien de locaux professionnels à Lyon. Nous assurons la maintenance immobilière Lyon, le nettoyage de vitrines Lyon et un service d'entretien commerces Lyon sur mesure.",
+            "Que vous ayez besoin d'un contrat de maintenance à Lyon, de petits travaux Lyon ou d'un lavage de vitres Lyon régulier ou ponctuel, nos experts multiservices Lyon s'adaptent à toutes vos exigences.",
+            "Grâce à nos services de dépannage et maintenance Lyon, bénéficiez d'un suivi fiable pour l'entretien régulier des locaux professionnels, bureaux et copropriétés.",
           ]}
           primaryButton={{
             text: "En savoir plus",
