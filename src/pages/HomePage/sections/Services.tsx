@@ -9,19 +9,19 @@ import { cls } from "@/lib/utils";
 const items = [
   {
     title: "Lavage de Vitres",
-    description: "Service professionnel de lavage de vitres et baies vitrées à Lyon pour maintenir vos espaces propres et lumineux.",
+    description: "1. Nettoyage de vitres professionnel à Lyon pour bureaux, commerces et copropriétés.\n2. Lavage de baies vitrées, verrières et accès difficiles en toute sécurité.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/monochrome-scene-depicting-life-workers-construction-industry-site_23-2151431465.jpg"
   },
   {
     title: "Lavage de Vitrines Commerciales",
-    description: "Entretien et lavage régulier de vitrines pour commerces et entreprises à Lyon afin de valoriser votre établissement.",
+    description: "3. Entretien et nettoyage régulier des devantures et vitrines de commerces.\n4. Formules sur mesure (hebdomadaire, mensuelle) pour valoriser votre image de marque.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg?_wi=2"
   },
   {
     title: "Maintenance & Petits Travaux",
-    description: "Interventions de nos techniciens à Lyon pour la maintenance générale, le suivi de vos locaux et les réparations du quotidien.",
+    description: "5. Petits travaux de bricolage, fixations et réparations quotidiennes.\n6. Maintenance préventive et curative des installations électriques et équipements.\n7. Suivi technique et rafraîchissement général de vos locaux.\n8. Interventions rapides par notre technicien qualifié à Lyon.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg?_wi=2"
   }
