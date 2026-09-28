@@ -11,13 +11,13 @@ const items = [
     title: "Maintenance Technique",
     description: "Diagnostic et entretien préventif complet de vos installations.",
     href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg"
+    imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg?_wi=2"
   },
   {
     title: "Rénovation Intérieure",
     description: "Craftsmanship de haute qualité pour vos projets de transformation.",
     href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg"
+    imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg?_wi=2"
   },
   {
     title: "Entretien de Locaux",

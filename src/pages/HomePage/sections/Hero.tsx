@@ -18,10 +18,10 @@ const items = [
     imageSrc: "http://img.b2bpic.net/free-photo/experienced-middle-aged-truck-mechanics-holding-parts-tools-repair-shop-by-truck_342744-1287.jpg"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg"
+    imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg?_wi=1"
   },
   {
-    imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg"
+    imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg?_wi=1"
   }
 ];
 
