@@ -8,20 +8,20 @@ import { cls } from "@/lib/utils";
 
 const items = [
   {
-    title: "Maintenance de Locaux & Entretien",
-    description: "Maintenance professionnelle et entretien régulier à Lyon pour bureaux, commerces, agences et habitations. Interventions ponctuelles ou contrats récurrents.",
+    title: "Lavage de Vitres",
+    description: "Service professionnel de lavage de vitres et baies vitrées à Lyon pour maintenir vos espaces propres et lumineux.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/monochrome-scene-depicting-life-workers-construction-industry-site_23-2151431465.jpg"
   },
   {
-    title: "Petits Travaux & Réparations",
-    description: "Service multiservices pour vos petits travaux à Lyon : fixations, montage, remplacement de petits équipements, ajustements et entretien du quotidien.",
+    title: "Lavage de Vitrines Commerciales",
+    description: "Entretien et lavage régulier de vitrines pour commerces et entreprises à Lyon afin de valoriser votre établissement.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/full-shot-men-wearing-equipment_23-2149345538.jpg?_wi=2"
   },
   {
-    title: "Lavage de Vitres & Vitrines",
-    description: "Lavage professionnel de vitres, baies vitrées et vitrines commerciales à Lyon. Contrat de passage hebdomadaire ou nettoyages ponctuels.",
+    title: "Maintenance & Petits Travaux",
+    description: "Interventions de nos techniciens à Lyon pour la maintenance générale, le suivi de vos locaux et les réparations du quotidien.",
     href: "#contact",
     imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-working-electrical-panel-male-electrician-overalls_169016-67163.jpg?_wi=2"
   }
