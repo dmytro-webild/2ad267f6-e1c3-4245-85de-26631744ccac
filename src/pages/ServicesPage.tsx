@@ -1,97 +1,30 @@
-import { routes } from "@/routes";
-import NavbarCentered from "@/components/ui/NavbarCentered";
-import HeroSplit from "@/components/sections/hero/HeroSplit";
 import AboutFeaturesSplit from "@/components/sections/about/AboutFeaturesSplit";
-import FeaturesMediaGrid from "@/components/sections/features/FeaturesMediaGrid";
-import ContactCta from "@/components/sections/contact/ContactCta";
-import FooterSimple from "@/components/sections/footer/FooterSimple";
+import Button from "@/components/ui/Button";
+import TextAnimation from "@/components/ui/TextAnimation";
+import ImageOrVideo from "@/components/ui/ImageOrVideo";
+import ScrollReveal from "@/components/ui/ScrollReveal";
+import { cls } from "@/lib/utils";
 
 export default function ServicesPage() {
-  const navItems = routes.map((r) => ({ name: r.label, href: r.path }));
-
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <NavbarCentered
-        logo="ApexStudio"
-        navItems={navItems}
-        ctaButton={{ text: "Get Started", href: "/contact" }}
-      />
-
-      <HeroSplit
-        tag="Premium Services"
-        title="Elevate Your Brand With Expert Design & Content"
-        description="We craft high-converting visual systems, social media assets, and digital experiences tailored to scale your business."
-        primaryButton={{ text: "Explore Services", href: "#services" }}
-        secondaryButton={{ text: "View Live Work", href: "#instagram-feed" }}
-        imageSrc="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+    <>
+      <div data-webild-section="AboutFeaturesSplit"><AboutFeaturesSplit
+        tag="Preuves en images"
+        title="Nos interventions sur le terrain en Rhône-Alpes"
+        description="Découvrez en images la rigueur et le savoir-faire technique de nos équipes lors de nos récentes interventions de maintenance."
+        primaryButton={{"text":"Demander un devis","href":"/contact"}}
+        secondaryButton={{"text":"Voir nos chantiers","href":"#chantiers"}}
+        items={[{"icon":"Wrench","title":"Maintenance de précision","description":"Entretien préventif et dépannage rapide sur installations industrielles et tertiaires."},{"icon":"Camera","title":"Suivi visuel direct","description":"Partage régulier de photos de chantiers pour une transparence totale avec nos clients."},{"icon":"ShieldCheck","title":"Normes & Sécurité","description":"Respect rigoureux des réglementations et certification de chaque intervention."}]}
+        imageSrc="https://img.freepik.com/free-photo/technician-checking-heating-system-equipment_23-2149302636.jpg"
         textAnimation="slide-up"
-      />
-
-      <div id="services">
-        <AboutFeaturesSplit
-          tag="Core Capabilities"
-          title="Tailored Creative Solutions Built for Growth"
-          description="From visual identity to social media strategy, our end-to-end creative solutions give your brand a decisive advantage."
-          items={[
-            { icon: "✨", title: "Brand & Identity System", description: "Comprehensive brand guidelines, typography, and visual assets." },
-            { icon: "📸", title: "Social Content Production", description: "High-impact short videos, lifestyle imagery, and campaign creative." },
-            { icon: "⚡", title: "Digital Campaign Strategy", description: "Data-driven creative direction that converts followers into loyal clients." }
-          ]}
-          imageSrc="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=80"
-          primaryButton={{ text: "Book Strategy Call", href: "/contact" }}
-          textAnimation="slide-up"
-        />
-      </div>
-
-      <div id="instagram-feed">
-        <FeaturesMediaGrid
-          tag="Live Instagram Feed"
-          title="Real-Time Proof of Work & Daily Highlights"
-          description="Stay updated with our latest client launches, behind-the-scenes shoots, and visual proof on @apexstudio."
-          items={[
-            {
-              title: "@apexstudio • 2h ago",
-              description: "Fresh rebrand and social strategy launch for TechFlow SaaS 🚀 #BrandDesign",
-              imageSrc: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
-            },
-            {
-              title: "@apexstudio • 1d ago",
-              description: "Studio shoot for Minimalist Apparel SS25 lookbook 📷 #CreativeDirection",
-              imageSrc: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
-            },
-            {
-              title: "@apexstudio • 3d ago",
-              description: "High-converting social ad creative suite for Velocity Motors 🏎️",
-              imageSrc: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
-            },
-            {
-              title: "@apexstudio • 5d ago",
-              description: "Behind the scenes on our latest 3D motion design project ✨",
-              imageSrc: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80"
-            }
-          ]}
-          primaryButton={{ text: "Follow @apexstudio", href: "https://instagram.com" }}
-          textAnimation="slide-up"
-        />
-      </div>
-
-      <ContactCta
-        tag="Ready to Work Together?"
-        text="Transform your visual presence with dedicated creative direction."
-        primaryButton={{ text: "Start Your Project", href: "/contact" }}
-        secondaryButton={{ text: "Contact Team", href: "/contact" }}
-        textAnimation="slide-up"
-      />
-
-      <FooterSimple
-        brand="ApexStudio"
-        columns={[
-          { title: "Services", items: [{ label: "Branding", href: "#services" }, { label: "Live Feed", href: "#instagram-feed" }] },
-          { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
-        ]}
-        copyright="© 2025 ApexStudio. All rights reserved."
-        links={[{ label: "Privacy Policy", href: "/privacy" }]}
-      />
-    </div>
+      /></div>
+      <div data-webild-section="FeaturesImageBento"><section aria-label="Features image bento section" className="py-20"><div className="flex flex-col gap-8 md:gap-10"><div className="flex flex-col items-center w-content-width mx-auto gap-2"><div className="px-3 py-1 mb-1 text-sm card rounded w-fit"><p>Nos Interventions</p></div><TextAnimation text="Nos prestations sur le terrain en Rhône-Alpes" variant="slide-up" gradientText={true} tag="h2" className="md:max-w-8/10 text-6xl 2xl:text-7xl leading-[1.15] font-semibold text-center text-balance" /><TextAnimation text="Découvrez en images nos chantiers récents de maintenance industrielle, tertiaire et résidentielle réalisés dans toute la région." variant="slide-up" gradientText={false} tag="p" className="md:max-w-7/10 text-lg md:text-xl leading-snug text-center text-balance" /><div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3"><Button text="Demander un devis" href="/contact" variant="primary" /><Button text="Voir nos services" href="#services" variant="secondary" animationDelay={0.1} /></div></div><div className="w-content-width mx-auto grid grid-cols-1 md:grid-cols-6 gap-3"><ScrollReveal key={0} variant="fade" delay={0} className="col-span-1 group md:col-span-2"><a href="/services#industriel" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={1} variant="fade" delay={0.1} className="col-span-1 group md:col-span-4"><a href="/services#cvc" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={2} variant="fade" delay={0} className="col-span-1 group md:col-span-3"><a href="/services#electricite" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={3} variant="fade" delay={0.1} className="col-span-1 group md:col-span-3"><a href="/services#plomberie" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={4} variant="fade" delay={0} className="col-span-1 group md:col-span-2"><a href="/services#toitures" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={5} variant="fade" delay={0.1} className="col-span-1 group md:col-span-2"><a href="/services#nettoyage" className="block overflow-hidden rounded"></a></ScrollReveal>
+<ScrollReveal key={6} variant="fade" delay={0.2} className="col-span-1 group md:col-span-2"><a href="/services#diagnostic" className="block overflow-hidden rounded"></a></ScrollReveal></div></div></section></div>
+    </>
   );
 }
